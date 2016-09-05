@@ -36,7 +36,8 @@
     "zone.js": "0.6.13",
     "angular2-in-memory-web-api": "0.0.15",
     "bootstrap": "^3.3.6",
-    "typings": "^1.0.4"
+    "typings": "^1.0.4",
+    "lite-server": "^2.2.0"
   },
   "devDependencies": {
     "browserify": "^13.1.0",
