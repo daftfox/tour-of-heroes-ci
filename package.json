@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server --port PORT",
+    "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "clean": "rm -rf dist",
