@@ -2,9 +2,8 @@
   "name": "tour-of-heroes",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run checkenv && tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "checkenv": "echo \"NODE_ENV=\"$NODE_ENV $PORT",
-    "lite": "lite-server",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server --port PORT",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "clean": "rm -rf dist",
