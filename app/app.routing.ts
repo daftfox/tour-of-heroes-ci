@@ -3,8 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HeroesComponent }      from './heroes.component';
 import { DashboardComponent }   from './dashboard.component';
-import {HeroDetailComponent} from "./hero-detail.component";
+import { HeroDetailComponent }  from "./hero-detail.component";
 
+// array with route locations that will be supplied to decorate the angular RouterModule
 const appRoutes: Routes = [
     {
         path:       '',

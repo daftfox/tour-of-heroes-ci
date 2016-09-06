@@ -20,7 +20,10 @@ export class DashboardComponent implements OnInit{
         private router: Router) {
     }
 
+    // fires when the page is loaded
     ngOnInit(): void {
+
+        // call HeroService
         this.heroService.getHeroes().then(
             heroes => this.heroes = heroes.slice( 1, 5 )
         )

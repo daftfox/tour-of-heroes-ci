@@ -13,6 +13,8 @@ import { Hero }                     from './hero';
 })
 
 export class HeroDetailComponent implements OnInit{
+
+    // Make the hero-variable an input (it has to be supplied by a parent component)
     @Input()
     hero: Hero;
 

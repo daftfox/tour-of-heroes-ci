@@ -62,10 +62,11 @@ module.exports = function(config) {
             'karma-nyan-reporter'
         ],
 
+        // use the nyan reporter (just because we like it)
         reporters: ['nyan'],
         port: 9876,
         colors: true,
-        logLevel: config.LOG_DEBUG,
+        logLevel: config.LOG_INFO,
         autoWatch: true,
         browsers: ['Chrome'],
         singleRun: true
